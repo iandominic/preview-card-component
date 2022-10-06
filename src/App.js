@@ -6,14 +6,14 @@ import cart from "./img/icon-cart.svg";
 function App() {
   return (
     <div className="w-full h-screen flex justify-center items-center bg">
-      <div className="flex flex-col h-[92%] w-[90%] max-h-[585px] max-w-[354px] bg-white m-auto rounded-lg overflow-hidden md:flex-row md:max-w-[605px] md:max-h-[453px]">
-        <img className="h-[231px] md:hidden" src={mobile} />
-        <img className="h-full w-[303px] hidden md:flex" src={desktop} />
+      <div className="flex flex-col h-[92%] w-[90%] max-h-[585px] max-w-[354px] bg-white m-auto rounded-lg overflow-hidden md:flex-row md:max-w-[605px] md:max-h-[445px]">
+        <img className="h-[231px] md:hidden" alt="" src={mobile} />
+        <img className="h-full w-[303px] hidden md:flex" alt="" src={desktop} />
         <div className="p-[19px] pl-[22px] md:p-[30px] flex flex-col md:gap-[18px]">
           <p className="uppercase tracking-[3.9px] montserrat text-[0.8rem] font-medium dark-grayish-blue leading-[24px] md:leading-[20px]">
             Perfume
           </p>
-          <h1 className="text-3xl frounces font-bold dark-blue pt-[9px] tracking-[.5px] leading-[30px] md:pr-[20px] md:text-4xl md:pt-0 md:leading-[33px]">
+          <h1 className="text-3xl frounces font-bold dark-blue pt-[9px] tracking-[.5px] leading-[30px] md:pr-[20px] md:text-[1.9rem] md:pt-0 md:leading-[33px]">
             Gabrielle Essence Eau De Parfum
           </h1>
           <p className="montserrat text-[0.8rem] font-medium dark-grayish-blue tracking-[.1px] leading-[22px] pt-[16px] md:pt-[6px] pr-[20px] md:pr-[2px] md:text-[0.9rem] md:leading-[23px]">
@@ -26,7 +26,7 @@ function App() {
           </div>
           <div className="flex montserrat items-center justify-center text-center w-full h-[46px] rounded-lg bg-dark-cyan text-white mx-auto md:h-[47px]">
               <img src={cart} /> 
-              <p className="text-[0.8rem] tracking-[.6px] pl-[8px]">Add to Cart</p>
+              <p className="text-[0.8rem] tracking-[.6px] pl-[8px] font-bold">Add to Cart</p>
           </div>
         </div>
       </div>
